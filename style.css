@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+.container{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin:100px auto;
+    max-width: 400px;
+    min-width: 25px;
+    max-height: 400px;
+    min-height: 25px;
+}
+
+.creado{
+    width: 25px; height: 25px;
+    border: solid;
+    background-color: rgb(255, 255, 255);
+}
+#tamaño{
+    align-items: center;
+   width: 100%;
+   height: 100px;
+    text-align: center;
+    margin: auto;
+}
