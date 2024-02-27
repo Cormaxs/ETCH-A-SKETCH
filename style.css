@@ -16,8 +16,9 @@ header{
     margin:100px auto;
     max-width: 400px;
     min-width: 25px;
-    max-height: 400px;
+    max-height: auto;
     min-height: 25px;
+    margin-bottom: 300px;
 }
 
 .creado{
@@ -31,4 +32,14 @@ header{
    height: 100px;
     text-align: center;
     margin: auto;
+}
+
+footer{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8 ;
 }
